@@ -7,6 +7,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
+      BASE_API_URL: https://reqres.in/api
 
     steps:
       - uses: actions/checkout@v4
