@@ -17,4 +17,4 @@ settings = Settings()
 
 BASE_API_URL = os.getenv("BASE_API_URL", "https://reqres.in/api")
 REQRES_API_KEY = os.getenv("REQRES_API_KEY")
-#REQRES_API_KEY = "reqres_2a3ce3f712e3411c9636a03deae13821"
+REQRES_API_KEY = "reqres_2a3ce3f712e3411c9636a03deae13821"
